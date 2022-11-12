@@ -25,6 +25,7 @@ int main(){
     graph* map = createGraph(ROW, COLUMN);
     addEdge(map,0,1,RIGHT,currentOrientation);
     addBarcode(map,0,1);
+    //addHump(map,0,1);
     currentOrientation = EAST;
     addEdge(map,1,2,FRONT,currentOrientation);
     addHump(map,1,2);

@@ -24,6 +24,9 @@ typedef struct graph{
 node* createNode(int nodeNumber){
     node* result = malloc(sizeof(node));
     if(result != NULL){
+        result->barcode = calloc(sizeof(bool),1);
+        result->hump = calloc(sizeof(bool),1);
+        result->hump = false;
         result->barcode = false;
         result->nodeNumber = nodeNumber;
         result->directionWhenNorth = '0';
