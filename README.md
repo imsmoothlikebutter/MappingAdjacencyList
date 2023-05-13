@@ -1,6 +1,6 @@
 # MappingAdjacencyList
 
-A mapping system that utlizes Adjacent Linked Lists to represent itself. It will also then output a graphical representation of the map. The map is has its boundaries defined
+A mapping system that utilizes Adjacent Linked Lists to represent itself. It will also then output a graphical representation of the map. The map is has its boundaries defined
 
 ## How to run?
 1) Clone the repository
